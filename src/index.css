@@ -14,7 +14,7 @@ html {
 
 body {
     min-height: 100vh;
-    background-color: dodgerblue;
+    background-color: darkred;
 }
 
 .App {
@@ -66,6 +66,8 @@ button {
 
 button {
   padding: 0.5rem;
+  color: #000;
+  text-decoration: overline underline;
 }
 
 .instructions {
