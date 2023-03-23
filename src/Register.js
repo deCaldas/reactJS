@@ -80,14 +80,15 @@ const Register = () => {
             errRef.current.focus();
         }
     }
-
     return (
         <>
             {success ? (
+                    // eslint-disable-next-line 
                 <section>
                     <h1>Success!</h1>
                     <p>
-                        <a href="#">Sign In</a>
+                        {/* enlace */}
+                        <a href="https://d-caldascaridad.github.io/reactJS/">Sign In</a>
                     </p>
                 </section>
             ) : (
@@ -172,7 +173,7 @@ const Register = () => {
                         Already registered?<br />
                         <span className="line">
                             {/*put router link here*/}
-                            <a href="#">Sign In</a>
+                            <a href="https://d-caldascaridad.github.io/reactJS/">Sign In</a>
                         </span>
                     </p>
                 </section>
